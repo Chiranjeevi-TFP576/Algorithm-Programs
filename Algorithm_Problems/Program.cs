@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome To Algorithm Problems");
             bool end = true;
-            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.End Of Programme");
+            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.InsertionSort\n4.End Of Programme");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -25,6 +25,9 @@
                         binarysearch.Search(@"D:\Batch 244\Algorithm-Programs\Algorithm_Problems\BinarySearch.txt");
                         break;
                     case 3:
+                        InsertionSort.Insertion();
+                        break;
+                    case 4:
                         end = false;
                         break;
 

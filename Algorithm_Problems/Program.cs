@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome To Algorithm Problems");
             bool end = true;
-            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.InsertionSort\n4.End Of Programme");
+            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.InsertionSort\n4.PrimeNumber\n5.End Of Programme");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -28,6 +28,9 @@
                         InsertionSort.Insertion();
                         break;
                     case 4:
+                        PrimeNumber.CheckPrime();
+                            break;
+                    case 5:
                         end = false;
                         break;
 

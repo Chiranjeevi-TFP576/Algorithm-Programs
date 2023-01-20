@@ -1,4 +1,6 @@
-﻿namespace Algorithm_Problems
+﻿using System.Runtime.CompilerServices;
+
+namespace Algorithm_Problems
 {
     internal class Program
     {
@@ -6,7 +8,7 @@
         {
             Console.WriteLine("Welcome To Algorithm Problems");
             bool end = true;
-            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.InsertionSort\n4.PrimeNumber\n5PrimeVsAnagram\n6.End Of Programme");
+            Console.WriteLine("1.BubbleSort\n2.Binary Search\n3.InsertionSort\n4.PrimeNumber\n5PrimeVsAnagram\n6.Anagram\n7.End Of Programme");
             while (end)
             {
                 Console.Write("Choose an option to execute : ");
@@ -37,6 +39,9 @@
                         palindrome.PalindromeNum();
                         break;
                     case 6:
+                        Anagrame.StringAnagram();
+                        break;
+                    case 7:
                         end = false;
                         break;
 
